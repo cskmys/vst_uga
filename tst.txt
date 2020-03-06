@@ -25,6 +25,6 @@ https://gricad-gitlab.univ-grenoble-alpes.fr/chakkak/vst.git
 ** ... > Push
 
 * Merging branch to master
-** ... > Checkout to... > origin/<branchname>
+** ... > Checkout to... > origin/master
 ** In Git Graph tab > right click on <branchname>|origin > Merge into current branch... > Ok
 ** ... > Push
