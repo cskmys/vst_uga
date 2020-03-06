@@ -26,5 +26,10 @@ https://gricad-gitlab.univ-grenoble-alpes.fr/chakkak/vst.git
 
 * Merging branch to master
 ** ... > Checkout to... > origin/master
-** In Git Graph tab > right click on <branchname>|origin > Merge into current branch... > Ok
+** Menu > View > SCM > Git Graph (icon besides Panel) > Git Graph(tab) > right click on <branchname>|origin > Merge into current branch... > Ok
 ** ... > Push
+
+* Creating tag from master
+** ... > Checkout to... > origin/master
+** Menu > View > SCM > Git Graph (icon besides Panel) > Git Graph(tab) > Select master|origin(click beside the label rather than on it), you should see a dropdown having info about commit
+** right click > Add Tag > Add Tag to Commit(dialog) > Name: <tagName> > select checkbox Push to remote > Click Add Tag
