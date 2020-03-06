@@ -1,0 +1,23 @@
+https://gricad-gitlab.univ-grenoble-alpes.fr/chakkak/vst.git
+
+* Setting up vscode
+** Install Git graph extension
+
+* Setting up project:
+** Create project by adding base file
+** Create repo on git and note its url: https://<gitaddress>/<projectname>.git
+** Menu > View > SCM > + > <folder name> (in command palette)
+** Click Git Graph icon besides Panel
+** Click setting > Repository Settings > 
+** Add User > User Details > Name and User Email(uncheck Global thingy)
+** Remote Configuration > Add Remote > Name: origin, Fetch URL: https://<gitusername>:<gitpassword>@<gitaddress>/<projectname>.git, Push URL: <blank>
+** ...(on right of side panel) > Commit All changes and type commit message in Command palette
+** ... > Push > select Ok to Publish Branch on upstream
+
+* Create a branch
+** ... > Checkout to... > + Create new branch(in Command palette) > type Branch name
+** ... > Push > select Ok to Publish Branch on upstream
+
+* Editing a branch
+** ... > Checkout to... > origin/<branchname>
+** edit files
