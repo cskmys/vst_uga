@@ -21,3 +21,10 @@ https://gricad-gitlab.univ-grenoble-alpes.fr/chakkak/vst.git
 * Editing a branch
 ** ... > Checkout to... > origin/<branchname>
 ** edit files
+** ... > Commit all >  Always to automatically stage all changes and then commit always > Commit message(command palette)
+** ... > Push
+
+* Merging branch to master
+** ... > Checkout to... > origin/master
+** In Git Graph tab > right click on <branchname>|origin > Merge into current branch... > Ok
+** ... > Push
